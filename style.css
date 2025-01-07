@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    color: rgb(255, 255, 255);
+    font-family: "Metroflex NR W00 252 Heavy OS";
+}
+
+.background-container {
+    background: url(/asset/img/Clackhouse.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 768px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+header h1{
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 8px;
+}
+
+header ul li a{
+    color: white;
+    font-size: 0.8em;   
+}
+
+main{   
+    height: 600px;
+    margin-top: 200px;
+}
+
+main h2{
+    font-size: 3em;
+    letter-spacing: 3px;    
+    width: 368px;    
+    margin-left: 40px;   
+}
+
+main div{
+    font-family: "Roboto";
+    font-weight: bold;
+    border: 1px solid white;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    padding: 22px;
+    margin-left: 40px;
+    margin-top: 50px;
+    letter-spacing: 2px;
+    font-size: 0.8em;
+}
+
+.content{   
+    color: black;
+    height: 600px;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content h3{   
+    text-align: center;
+    font-size: 4em;
+    letter-spacing: 6px;
+    margin-top: 80px;    
+}
+
+.content ul li {
+    background-color: black;    
+    width: 430px;   
+    border-radius: 5px;    
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+.content ul li a{
+    color:white;
+    letter-spacing: 4px;
+}
+
+.button-saber {
+    justify-content: center;
+    padding: 100px;
+}
+
+.button-saber button {
+    background-color: black;
+    border: none;
+    padding: px;
+    border-radius: 20px;   
+    color: white;
+    font-family: "Roboto";
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.8rem;    
+    width: 200px;
+    height: 35px;
+}
+.button-saber button:hover{
+    background-color: rgb(245,51, 63);
+    color:rgb(255, 255, 255)
+}
+
+.sidebar{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px;  
+}
+
+.sidebar h3{
+    color: black;
+    text-align: center;
+    font-size: 4em;
+    letter-spacing: 6px;
+    margin-top: 80px;   
+}
+
+aside.sidebar ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+aside.sidebar ul li a{
+    background-color: rgba(0, 0, 0, 0.281);
+    color: white;
+    position: relative;
+    width: 170px;
+    height: 270px;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+aside.sidebar li:nth-child(1){
+    background-image: url(/asset/img/pergolas.jpg);
+    display: block;
+    border-radius: 20px; 
+}
+aside.sidebar li:nth-child(2){
+    background-image: url(/asset/img/cortinas.jpg);
+    border-radius: 20px;
+    display: block;
+}
+aside.sidebar li:nth-child(3){
+    background-image: url(/asset/img/Techoauto.jpg);
+    border-radius: 20px;
+    display: block;
+}
+aside.sidebar li:nth-child(4){
+    background-image: url(/asset/img/carpinteria\ pvc.jpg);
+    border-radius: 20px;
+    display: block;
+}
+aside.sidebar li:nth-child(5){
+    background-image: url(/asset/img/estores.jpg);
+    border-radius: 20px;
+    display: block;
+}
+
+.sidebar button{
+    display: block;
+    width: 300px;
+    height: 30px;
+    background-color: rgb(245,51, 63);
+    color: white;    
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 130px;
+}
+.sidebar button:hover{
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 255, 255)
+}
+.feature{
+    background-color: rgb(26, 26, 26);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 20px;   
+    height: 1200px;
+}
+
+.feature h2{
+    font-size: 2.5rem;    
+    margin-bottom: 1.5rem;    
+}
+
+form input, form textarea{
+    background-color: rgba(255, 255, 255, 0.075);
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.247);
+    width: 100%;
+}
+
+input[type="submit"]{
+    color: white;
+    background-color: rgb(245,51, 63);
+}
+.datos{
+    color: white;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.inicio h4{
+    color: rgb(245,51, 63);
+    font-size: 2rem;
+    font-weight: bold;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+.inicio ul li a{
+    list-style: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.contacto p{
+    color: rgb(245,51, 63);
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 300px;
+}
+
+.contacto ul li a{
+    list-style: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+@media (min-width: 768px) {
+    .background-container {
+        background: url(/asset/img/Clackhouse.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 1300px;
+    }
+    
+    header{    
+        display: flex;    
+        flex-direction: row;                      
+    }
+    
+    header nav{
+        display: flex;        
+        flex-direction: row;
+        align-items: center;
+        width: 800px;        
+    }
+
+    header ul{
+        display: flex;         
+        flex-direction: row;        
+        width: 800px;     
+        justify-content: center;   
+    }
+
+    header li{
+        display: flex;           
+        list-style: none;
+        margin-right: 20px;
+        padding: 10px;
+        flex-direction: row;
+    }
+    main{
+        display: flex; 
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+        padding: 120px
+    }
+    main h2{
+        font-size: 5.5em;
+        letter-spacing: 3px;    
+        width: 500px;    
+        margin-top: 100px;   
+        text-align: justify;
+    }
+    main div{              
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        padding: 22px;
+        margin-left: 40px;
+        margin-top: 180px;
+        letter-spacing: 2px;
+        font-size: 0.8em;
+    }
+
+    .content{   
+        display: flex;
+        color: black;
+        height: 900px;
+        padding: 20px;        
+        justify-content: center;
+        align-items: center;
+    }
+    .content ul{
+        display: flex;
+        flex-direction: row;
+        gap:1rem;
+    }
+    
+    .content ul li {
+        display: flex;
+        flex-direction: row;        
+        width: 130px;             
+        writing-mode: vertical-lr;
+        transform: rotate(180deg);
+        text-align: center;
+    }   
+    aside.sidebar{
+        display: flex;
+        flex-direction: column;
+        color: black;
+        height: 1200px;
+        padding: 20px;        
+        justify-content: center;
+        align-items: center;
+    }  
+
+    .aside.sidebar ul{
+        display: flex;
+        flex-direction: row;
+        gap:1rem;        
+    }
+
+    .aside.sidebar ul li{
+        display: flex;
+        flex-direction: row;        
+        width: 130px;             
+        writing-mode: vertical-lr;
+        transform: rotate(180deg);
+        text-align: center;
+
+    }
+
+}
