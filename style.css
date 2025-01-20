@@ -12,7 +12,7 @@ body {
 }
 
 .background-container {
-    background: url(/asset/img/Clackhouse.jpg);
+    background: url(./asset/img/Clackhouse.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -156,27 +156,27 @@ aside.sidebar ul li a{
 }
 
 aside.sidebar li:nth-child(1){
-    background-image: url(/asset/img/pergolas.jpg);
+    background-image: url(./asset/img/pergolas.jpg);
     display: block;
     border-radius: 20px; 
 }
 aside.sidebar li:nth-child(2){
-    background-image: url(/asset/img/cortinas.jpg);
+    background-image: url(./asset/img/cortinas.jpg);
     border-radius: 20px;
     display: block;
 }
 aside.sidebar li:nth-child(3){
-    background-image: url(/asset/img/Techoauto.jpg);
+    background-image: url(./asset/img/Techoauto.jpg);
     border-radius: 20px;
     display: block;
 }
 aside.sidebar li:nth-child(4){
-    background-image: url(/asset/img/carpinteria\ pvc.jpg);
+    background-image: url(./asset/img/carpinteria\ pvc.jpg);
     border-radius: 20px;
     display: block;
 }
 aside.sidebar li:nth-child(5){
-    background-image: url(/asset/img/estores.jpg);
+    background-image: url(./asset/img/estores.jpg);
     border-radius: 20px;
     display: block;
 }
@@ -277,7 +277,7 @@ footer{
 
 @media (min-width: 768px) {
     .background-container {
-        background: url(/asset/img/Clackhouse.jpg);
+        background: url(./asset/img/Clackhouse.jpg);
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
